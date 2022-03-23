@@ -423,6 +423,7 @@ section {
 }
 
 .header-content .right-header p {
+  text-align: justify;
   margin: 1.5rem 0;
   line-height: 2rem;
 }
@@ -503,8 +504,9 @@ section {
 }
 
 .about-container .left-about p {
+  text-align: justify;
   line-height: 2rem;
-  padding: 1rem;
+  padding: .3rem 1rem;
   color: var(--color-grey-1);
 }
 
