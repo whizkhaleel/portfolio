@@ -16,7 +16,7 @@ function pageTransition() {
     allSections.addEventListener('click', (e) => {
         const id = e.target.dataset.id;
         if(id) {
-            // Remove selected from the other buttons
+            // Remove active class from the other buttons and add to the selected
             sectBtns.forEach((btn) => {
                 btn.classList.remove('active');
             });
